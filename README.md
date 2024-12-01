@@ -96,7 +96,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
- (https://github.com/bdshakhawat/user-dashboard.git)
+ (https://github.com/bdshakhawat/shop-store.git)
 ```
 
 ### Install
@@ -108,8 +108,7 @@ Install this project with:
   <li>Step 1: Clone the Repository
     bash
     Copy code
-    git clone https://github.com/your-username/Stationery-Shop-B4A2V5.git
-    cd Stationery-Shop-B4A2V5
+    git clone https://github.com/bdshakhawat/shop-store.git
     📦 Step 2: Install Dependencies
     Install all required dependencies:
 
