@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://shop-store-jade.vercel.app/))
-- [Video Link] (https://drive.google.com/file/d/12ptZ_-i9WuZRaKvYufN0nnrG076JyoB1/view?usp=sharing)
+- [Video Link] (https://drive.google.com/file/d/1Lp0Qekie9LdNtiSoW1bdXG9YZGvsKSos/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
