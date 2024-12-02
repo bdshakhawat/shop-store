@@ -218,7 +218,7 @@ If you like this project please send a welcome message on Twitter and let's have
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my wife, who always inspires me to be a better software engineer. Also thanks to Microverse for awesome support.
+I would like to thank my wife, who always inspires me to be a better software engineer. Also thanks to Programming Hero for awesome support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
