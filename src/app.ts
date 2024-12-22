@@ -1,8 +1,10 @@
 import cors from 'cors';
 import express, { Request, Response } from 'express';
-const app = express();
+
 import ProductRoutes from './routes/ProductRoutes';
 import OrderRoutes from './routes/OrderRoutes';
+
+const app = express();
 app.use(express.json());
 
 //application routes
@@ -26,8 +28,9 @@ app.use(cors());
 
 
 
+
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!');
+  res.send('Book app is Running!');
 });
 
 export default app;
