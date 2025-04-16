@@ -1,6 +1,124 @@
-   
+Front-end:
+# Book Shop Application:
+
+##  Live Demo
+
+[Click here to visit the live application](https:---------------------)
 
 
+## Overview 
+
+ "Book Shop" is a fully functional e-commerce platform for buying  books. It includes  authentication, product management, sorting and role-based access for users and admins. It is a responsive, user-friendly application.
+
+## All Features:
+
+## Authentication :
+
+- User registration with "password hashing".
+- Login with JWT-based authentication.
+- Role-based access (`admin` and `user`).
+- Logout functionality.
+
+## Public Routes
+
+- Home Page:
+  - Navbar with navigation  buttons.
+  - Banner with featured promotions.
+  - Featured products (max 6) with a "View All" button.
+  - Footer with social media links and contact details.
+- All Products Page:
+  - Search functionality by `title`, `author`, and `category`.
+  - Filters for `price range`, `author`, `category`, and `availability`.
+  - Dynamic product listing with details and a "View Details" button.
+- Product Details Page:**
+  - Displays book image, name, author, category, price, and description.
+  - "Buy Now" button leading to checkout.
+- About Page:
+  - Information about the book shop and its mission.
+
+## Private Routes:
+
+- Checkout Page:
+  - Users can place orders (ensuring stock availability).
+  - Order form with product/user details, total price, and payment method.
+  - **Payment Integration with SurjoPay**.
+- **Dashboard (Role-Based Access):**
+  - **Admin Dashboard:** Manage users, products (CRUD), and orders (CRUD).
+  - **User Dashboard:** View orders and manage profile settings.
+  - Password update functionality (requires current password).
+
+## UI/UX Enhancements
+
+- Responsive design for all screen sizes.
+- Error handling for login, registration and all other operations.
+- Adding Loading states for API callings.
+- Toasts for notifications.
+
+## Technologies Used
+
+- Frontend: React.js, TypeScript, Tailwind CSS, Ant Design
+- Backend:** Node.js, Express.js, MongoDB
+- Authentication: JWT (JSON Web Token)
+- State Management: Redux Toolkit
+- Payment Gateway: Stripe
+- Deployment: Vercel 
+
+
+
+## Installation & Setup
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- MongoDB 
+
+## Backend Setup:
+
+# Clone the repository https://github.com/bdshakhawat/book-shop-backend
+cd book-shop-backend
+
+# Install dependencies
+npm install
+
+# Create a .env file and add the following variables:
+PORT=5000
+NODE_ENV
+PORT
+DATABASE_URL
+BCRYPT_SALT_ROUNDS
+JWT_ACCESS_SECRET
+JWT_ACCESS_EXPIRES_IN
+
+
+# Run the server
+npm start:dev
+
+
+## Frontend Setup:
+
+# Install dependencies
+npm install
+
+
+# Start the frontend
+npm run dev
+
+
+## Usage Instructions: 
+
+- Sign up or log in to access the application.
+- Browse books, apply filters and search for specific Books.
+- View product details and proceed to checkout.
+- **Admins** can **add, update, delete products** and **manage users**.
+- **Users** can **place orders and manage their profiles**.
+
+## 👨‍💻 Contributors
+
+
+
+Backend:
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
   <h3><b>Shop-store Backend Project </b></h3>
